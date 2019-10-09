@@ -7,7 +7,8 @@ import modules from './modules'
 Vue.use(Vuex)
 
 const state = {
-    author: '陈佳搏'
+    author: '陈佳搏',
+    token: ''
 }
 
 export default new Vuex.Store({
