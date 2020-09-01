@@ -1,5 +1,3 @@
 export default {
-    action_demo({ commit, state }, products){
-        
-    }
-}
+  action_demo({ commit, state }, paloay) {}
+};

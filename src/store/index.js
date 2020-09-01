@@ -1,19 +1,19 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import mutations from './mutations'
-import actions from './actions'
-import modules from './modules'
+import Vue from "vue";
+import Vuex from "vuex";
+import mutations from "./mutations";
+import actions from "./actions";
+import modules from "./modules";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 const state = {
-    author: '陈佳搏',
-    token: ''
-}
+  author: "陈佳搏",
+  token: ""
+};
 
 export default new Vuex.Store({
   state,
   modules,
   actions,
   mutations
-})
+});
