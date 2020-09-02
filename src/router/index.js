@@ -11,7 +11,7 @@ const router = new Router({
       name: "home",
       component: Home,
       meta: {
-        isAuthority: turn
+        isAuthority: true
       }
     },
     ...demo_router
